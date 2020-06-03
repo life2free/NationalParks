@@ -5,7 +5,7 @@ A guide to National Parks in America, built with React.
 ## Descriptions
 
 Build out a small website for the National Parks, which provides the park's
-information. The data come from 3rd-party APIs.
+information. The data comes from 3rd-party APIs.
 
 ## Technologies Used
 
