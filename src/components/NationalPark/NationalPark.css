@@ -1,0 +1,107 @@
+.nationalpark-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nationalpark-first-img {
+  width: 100%;
+  height: 877px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nationalpark-name {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 6.25em;
+  color: white;
+  font-weight: bold;
+}
+
+.nationalpark-description-container {
+  margin: 0;
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nationalpark-description {
+  margin: 20% 15%;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nationalpark-address {
+  margin: 5% 5% 1% 5%;
+  width: 80%;
+}
+
+.nationalpark-address-title,
+.nationalpark-directions-title {
+  color: black;
+  font-size: 1.875em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nationalpark-address-detail,
+.nationalpark-directions-detail {
+  color: black;
+  font-size: 1em;
+}
+
+.nationalpark-directions {
+  margin: 1% 5% 1% 5%;
+  width: 80%;
+}
+
+.nationalpark-readmore {
+  width: 80%;
+  margin: 1%;
+}
+
+.nationalpark-readmore-button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 1.25em;
+  background-color: black;
+}
+
+.nationalpark-imgs-title {
+  width: 80%;
+  font-size: 1.875em;
+  color: black;
+  font-weight: bold;
+}
+
+.nationalpark-imgs-container {
+  width: 80%;
+}
+
+.nationalpark-item-img {
+  width: 250px;
+  height: 250px;
+  margin: 0 20px 20px 0;
+}
+
+.nationalpark-backtolist {
+  margin: 4% 0;
+}
+
+.nationalpark-backtolist-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.875em;
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+* {
+  border: 1px solid rgba(39, 39, 39, 0);
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+.nationalparklist-link {
+  text-decoration: none;
+}
+
+.App-header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+.App-main {
+  margin: 0;
+}
+
+.App-footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.App-footer-container {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-footer-container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.App-footer-container-info-service {
+  margin-top: 15%;
+  margin-bottom: 2%;
+  font-size: 0.8em;
+}
+
+.App-footer-container-info-department {
+  margin-top: 0;
+  font-size: 0.9em;
+}
+
+.App-footer-container-img img {
+  width: 70%;
+  height: 70%;
+}
